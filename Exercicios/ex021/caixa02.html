@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        nav {
+            background-color: rgb(92, 92, 92);
+            padding: 3px;
+        }
+
+        nav > a{ 
+            color: #ffff;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        nav > a:active {
+            text-decoration: underline;
+        }
+
+        header {
+            background-color: #ffff;
+            padding: 10px;
+        }
+
+        main {
+            background-color: #ffff;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: #ffff;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(110, 110, 110);
+            color: #ffff;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            Esportes Política Tecnologia
+        </section>
+
+    <section id="noticias">
+        <article>
+            <h2>Notícia Sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit quae temporibus modi omnis. Perspiciatis et inventore quas sunt! Optio ad molestiae sunt sit. Minima sint, libero quaerat fugit hic distinctio?</p>
+            <aside>
+                <p>Artigo escrito por José da Silva</p>
+            </aside>
+        </article>
+        <article>
+
+        </article>
+    </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo $adBoyMa$ter</p>
+    </footer>
+</body>
+</html>
