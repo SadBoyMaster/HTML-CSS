@@ -25,8 +25,10 @@ h1{
 
 h2 {
     color: #125189;
+
 }
 
 p {
     text-align: justify;
+    text-indent: 10px;
 }

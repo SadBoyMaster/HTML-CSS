@@ -4,132 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Teste de Imagens de Fundo</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
         body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: darkgray;
-            margin: 0px;
+            background-image: url('imagens/wallpaper001.jpg');
         }
 
-        header {
-            background-color: #ffff;
-            margin: 10px;
-            padding: 10px;
-            border-radius: 10px 0px;
-            box-shadow: 5px 4px 7px 1px rgba(0, 0, 0, 0.473);
-        }
-
-        header > h1 {
-            font-family: 'Kaushan Script', serif;
-            color: blue;
-            text-align: center;
-        }
-
-        nav {
+        div.quadrado {
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
             background-color: lightgray;
-            box-shadow: 7px 6px 7px 0px rgba(0, 0, 0, 0.308);
+            width: 300px;
+            height: 300px;
         }
 
-        nav > a {
-            text-decoration: none;
-            margin-right: 10px;
-            color: blue;
-            font-weight: bold;
+        div#q1 {
+            background-color: aqua;
         }
 
-        nav > a:hover {
-            text-decoration: underline;
+        div#q2 {
+            background-image: linear-gradient(to bottom, aqua, red);
         }
 
-        main {
-            background-color: #ffff;
-            border-radius: 10px 0px;
-            padding: 10px;
-            margin: 10px;
-            margin-bottom: 10px;
-            box-shadow: 5px 4px 7px 1px rgba(0, 0, 0, 0.473);
+        div#q3 {
+            background-image: url('imagens/wallpaper002.jpg');
         }
-
-        section > h2 {
-            font-family: 'Kaushan Script', serif;
-            text-indent: 20px;
-            color: blue;
-        }
-
-        article > h2 {
-            font-family: 'Kaushan Script', serif;
-            color: blue;
-            text-align: center;
-        }
-
-        article > p {
-            background-color: lightgray;
-            text-indent: 20px;
-        }
-
-        article >aside {
-            background-color: black;
-            color: #ffff;
-            text-align: right;
-            border-radius: 3px;
-        }
-
-
-        footer {
-            background-color: black;
-            color: #ffff;
-            text-align: right;
-            padding: 4px;
-            border-radius: 5px;
-        }
-
-        footer > p {
-            margin: 0px;
-        }
-
-        div#bola {
-            background-color: #ffff;
-            margin: 10px;
-            height: 100px;
-            width: 100px;
-            border-radius: 50px;
-        }
-
     </style>
 </head>
 <body>
-    <header>
-        <h1>Meu Site</h1>
-        <nav>
-            <a href="#">link</a>
-            <a href="#">link</a>
-            <a href="#">link</a>
-            <a href="#">link</a>
-            <a href="#">link</a>
-        </nav>
-    </header>
-    <main>
-        <section id="conteudo">
-            <h2>Esportes Política Tecnologia</h2>
-        </section>
-        <section id="anuncio">
-            <article>
-                <h2>Notícias Sobre o Brasil</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut aliquid nobis officiis at officia, enim vitae fugit provident nostrum iusto temporibus vero molestiae tempora? Id accusamus iure consequuntur beatae!</p>
-                <aside>
-                    <p>Escrito por...</p>
-                </aside>
-            </article>
-            <article>
-                
-            </article>
-        </section>
-    </main>
-    <footer>
-        <p>Desenvolvido por...</p>
-    </footer>
-    <div id="bola"></div>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
 </body>
 </html>
