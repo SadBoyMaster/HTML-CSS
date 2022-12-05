@@ -11,8 +11,15 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(73, 73, 73);
             color: #fff;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 10px;
+            background-color: lightgray;
         }
 
         table {
@@ -20,8 +27,8 @@
             border-collapse: collapse;
         }
 
-        tr {
-           
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
 
         td, th {
@@ -58,12 +65,12 @@
     <table>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;" >População</th>
             </tr>
         </thead>
         <tbody>
-
+            <caption>População das Unidades Federativas</caption>
             <tr>
                 <td><a href="https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_(estado)">São Paulo</a></td>
                 <td class="num">41 262 199</td>
@@ -175,7 +182,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
