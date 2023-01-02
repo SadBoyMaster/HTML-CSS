@@ -1,0 +1,10 @@
+*
+Bebas Neue 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&display=swap');
+
+font-family: 'Bebas Neue', cursive;
+
+
+*
+fonte da pasta fonte
